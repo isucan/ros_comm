@@ -40,5 +40,7 @@
 
   <export>
     <rosdoc config="${prefix}/rosdoc.yaml"/>
+    <rosbag migration_rule_file="rules/JointTrajectoryPoint_Groovy2Hydro_08.10.2013.bmr"/>
   </export>
+
 </package>
