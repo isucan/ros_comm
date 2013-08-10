@@ -62,3 +62,5 @@ install(PROGRAMS
   scripts/savemsg.py
   scripts/topic_renamer.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+install(DIRECTORY rules
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
